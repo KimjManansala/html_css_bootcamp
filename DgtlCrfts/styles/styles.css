@@ -1,23 +1,96 @@
-#logo{
-    width: 250px
-
-}
-.row{
-    display: flex;
-            justify-content: space-between;
-             width:200px; 
-             font-size: 10px
-}
-
-body {
-}
-
-.wrapper{
-    width: 100%;
-    height: 600px;
-    background: url(/img/atl.png)no-repeat;
-    background-size: cover;
+/* This is the top of the page */
+.top{
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 600px;
+    background: url(/img/atl.png) no-repeat;
+    background-size: cover;
+    margin-right: 0px;
+}
+.row{
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    margin-left: 500px;
+}
+.name{
+    padding: 0px 20px;
+    font-size: 12px;
+    
+}
+.left{
+    margin-left: 100px;
+}
+.collum{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#logo{
+    width: 275px
+}
+#name{
+    color: white;
+    font-size: 80px;
+}
+.def{
+    color:rgb(194, 194, 194)
+}
+
+
+/* This is the middle of the page */
+
+.middle{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height: 600px;
+    background-color: rgba(255, 255, 255, 0.425);
+}
+#topTitle{
+    font-size: 50px;
+    margin-top: 87px;
+}
+.logos{
+    display: flex;
+    justify-content: space-around;
+}
+.definitions{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    margin: 78px 48px;
+}
+.title{
+    font-size: 35px;
+}
+
+
+
+/* This is the bottom of the page */
+
+.bottom{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    height:150px;
+    background-color: rgb(61, 61, 61);
+    justify-content: space-between;
+}
+.bottom div{
+    color: rgb(163, 153, 153);
+}
+.bb{
+    display: flex;
+    justify-content: center;
+}
+.stuff{
+    margin: 37px 36px;
+    font-size: 25px;
 }

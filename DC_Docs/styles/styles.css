@@ -1,0 +1,47 @@
+.leftSide{
+    display: flex;
+    align-content: flex-start;
+    justify-content: flex-start;
+
+
+
+}
+.insideLeft{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 300px;
+    height: 100%;
+    background-color: rgba(116, 116, 116, 0.644);
+
+}
+.insideLeft > div{
+    color: rgba(255, 255, 255, 0.726);
+    margin: 0px 0px 10px 20px;
+
+}
+.insideLeft input[type=text]{
+    border-color: rgb(190, 188, 188);
+    border-style: solid;
+    border-width: medium;
+    width: 200px;
+    height: 15px;
+    margin: 10px 15px 30px 20px;
+}
+
+#copyright{
+    margin-top: 600px;
+
+}
+
+/* Right side */
+.title{
+    display: flex;
+    justify-content: flex-start;
+    t: center;
+    font-size: 22px;
+}
+
+#image{
+    display:inline;
+}

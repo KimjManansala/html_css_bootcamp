@@ -24,29 +24,9 @@ body{
     margin-top: 25px;
 }
 
-li{
-    float: left;
-}
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-}
-.right {
-    float: right;
-    text-align: right;
-    padding: 14px 16px;
-    color: rgb(159, 152, 152)
-}
 #image{
     left: 100px;
     padding: 14px 10px 14px 50p;
-}
-#Top {
-  
-    font-size: 36px;
-    padding: 5px 0px;
 }
 .button{
     color: white;
@@ -60,15 +40,14 @@ ul {
     padding: 5px 10px;
    
 }
-
 #date{
     text-align: center;
     color:rgb(194, 194, 194)
 }
-footer ul li{
+footer > ul > li{
     list-style-type: none;
     margin: 0;
     padding: 14px 16px;
-    color: rgb(159, 152, 152)
-    
+    color: rgb(159, 152, 152);
+    float: left;
 }
